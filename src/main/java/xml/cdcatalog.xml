@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--<?xml-stylesheet type="text/xsl" href="cdtable.xsl"?>-->
 <!--<?xml-stylesheet type="text/xsl" href="cdweb.xsl"?>-->
-<?xml-stylesheet type="text/xsl" href="comatext.xsl"?>
+<!--<?xml-stylesheet type="text/xsl" href="comatext.xsl"?>-->
+<?xml-stylesheet type="text/xsl" href="keyfunction.xsl"?>
 <catalog>
     <cd>
         <title>Empire Burlesque</title>
