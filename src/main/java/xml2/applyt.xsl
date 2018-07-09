@@ -46,6 +46,8 @@
     <xsl:template match="address">
         <TD>
             <xsl:apply-templates/>
+            <!--<xsl:value-of select="node()"/>-->
+            <!--<xsl:value-of select="."/>-->
         </TD>
     </xsl:template>
 
