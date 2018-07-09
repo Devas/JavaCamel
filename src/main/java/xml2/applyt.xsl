@@ -17,7 +17,7 @@
             <BODY>
                 <TABLE border="1" cellspacing="0" cellpadding="2">
                     <xsl:copy-of select="$header"/>
-                    <xsl:apply-templates select="customers/customer">
+                    <xsl:apply-templates select="customers/customer[not(contains(.//address, 'Av'))]">
                         <xsl:sort select="state"/>
                         <xsl:sort select="name"/>
                     </xsl:apply-templates>
